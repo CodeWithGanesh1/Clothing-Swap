@@ -21,7 +21,7 @@ connectDB();
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "https://clothing-swap-five.vercel.app/",
+    origin: process.env.CLIENT_URL || "https://clothing-swap-five.vercel.app",
   })
 );
 app.use(express.json({ limit: "10mb" }));
